@@ -5,8 +5,6 @@ services:
     build: .
     volumes:
       - ./test.txt:/app/test.txt:rw # Ensure the file is writable
-    environment:
-      - FILE_TO_WATCH=/app/test.txt
     logging:
       driver: "json-file"
       options:

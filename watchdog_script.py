@@ -3,18 +3,12 @@ import os
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-print("Starting watchdog script...")  # Add this line
-
 # Configuration
-file_to_watch = os.environ.get('FILE_TO_WATCH', 'test.txt')
+file_to_watch = "/app/test.txt"
 threshold = 100  # Example threshold value
-
-# Debugging environment variable
-print(f"Environment variable FILE_TO_WATCH: {file_to_watch}")
 
 # Get absolute path of the file to watch
 absolute_path_to_watch = os.path.abspath(file_to_watch)
-print(f"File to watch: {absolute_path_to_watch}")
 
 class WatchdogHandler(FileSystemEventHandler):
     def on_modified(self, event):
