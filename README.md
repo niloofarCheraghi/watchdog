@@ -1,19 +1,19 @@
-# 👁️‍🗨️ Watchdog File Monitoring System
+#  Watchdog File Monitoring System
 
 A lightweight file monitoring tool built with **Python** and containerized using **Docker**. This script continuously watches for changes in a target file or directory and performs custom actions (e.g., logging, alerts, etc.).
 
 ---
 
-## ⚙️ Features
+##  Features
 
-- 🕒 Real-time file monitoring
-- 📝 Detects file changes (e.g., updates to `test.txt`)
-- 🐳 Dockerized environment with Dockerfile and Compose
-- ✅ Easy to configure and deploy
+-  Real-time file monitoring
+-  Detects file changes (e.g., updates to `test.txt`)
+-  Dockerized environment with Dockerfile and Compose
+-  Easy to configure and deploy
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 watchdog-master/
@@ -27,7 +27,7 @@ watchdog-master/
 
 ---
 
-## 🚀 How to Run (with Docker)
+##  How to Run (with Docker)
 
 1. **Clone the repository:**
    ```bash
@@ -49,7 +49,7 @@ The script will start monitoring `test.txt` for any changes.
 
 ---
 
-## 🧪 Local Development (Without Docker)
+##  Local Development (Without Docker)
 
 > Make sure Python 3.x is installed.
 
@@ -63,11 +63,7 @@ The script will start monitoring `test.txt` for any changes.
    python watchdog_script.py
    ```
 
----
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
 
 ---
 
