@@ -67,7 +67,6 @@ The script will start monitoring `test.txt` for any changes.
 
 ---
 
-## 👨‍💻 Developer
+##  Developer
 
-Simple Watchdog Script Project  
 Developed by: **Niloufar Cheraghi**
